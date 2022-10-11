@@ -1,0 +1,34 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "AlarmStatusTable"
+        },
+        "position": {
+          "height": 459,
+          "width": 596,
+          "x": 43,
+          "y": 20
+        },
+        "props": {
+          "filters": {
+            "active": {
+              "conditions": {
+                "displayPath": "\"test\""
+              }
+            }
+          }
+        },
+        "type": "ia.display.alarmstatustable"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.coord"
+  }
+}
