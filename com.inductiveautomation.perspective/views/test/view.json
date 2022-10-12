@@ -1,0 +1,77 @@
+{
+  "custom": {},
+  "params": {},
+  "props": {},
+  "root": {
+    "children": [
+      {
+        "meta": {
+          "name": "PieChart"
+        },
+        "position": {
+          "breakpoints": [
+            {
+              "colIndex": 7,
+              "name": "sm",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 1
+            },
+            {
+              "colIndex": 4,
+              "name": "md",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 6
+            },
+            {
+              "colIndex": 7,
+              "name": "lg",
+              "order": 1,
+              "rowIndex": 0,
+              "span": 1
+            }
+          ],
+          "height": 371
+        },
+        "props": {
+          "colors": [
+            "#3366CC",
+            "#EC4B3D",
+            "#4FC86C",
+            "#00A9C6",
+            "#E69300"
+          ],
+          "data": [
+            {
+              "count": 36,
+              "flavor": "Pumpkin"
+            },
+            {
+              "count": 17,
+              "flavor": "Pecan"
+            },
+            {
+              "count": 14,
+              "flavor": "Apple"
+            },
+            {
+              "count": 10,
+              "flavor": "Sweet Potato"
+            },
+            {
+              "count": 9,
+              "flavor": "Chocolate"
+            }
+          ],
+          "title": "Favorite Pie Flavors"
+        },
+        "type": "ia.chart.pie"
+      }
+    ],
+    "meta": {
+      "name": "root"
+    },
+    "type": "ia.container.column"
+  }
+}
